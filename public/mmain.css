@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.all-container {      
+.all-container {
     background-color: #e5e5e5;
     font-family: roboto;
 }
@@ -39,7 +39,7 @@
     border-radius: 10px;
     padding: 13px 28px;
     font-family: roboto;
-    
+
 }
 
 .all-mid {
@@ -53,7 +53,7 @@
     position: relative;
 }
 
-.cont-mid > img {
+.cont-mid>img {
     position: absolute;
     bottom: -200px;
     left: 78px;
@@ -63,14 +63,14 @@
     display: flex;
     width: 75%;
     padding: 80px 0px;
-    margin:  auto;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .mid {
-    width:50%;
+    width: 50%;
 }
 
 .mid h3 {
@@ -94,12 +94,13 @@
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .ton {
     width: 50%;
     margin-top: 89px;
+    z-index: 1;
 }
 
 .ton-1 {
@@ -110,6 +111,8 @@
     font-weight: 700;
     font-size: 28px;
     color: #141B56;
+    position: relative;
+    z-index: 1;
 }
 
 .ton p {
@@ -142,7 +145,7 @@
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    
+
 }
 
 .g {
@@ -159,14 +162,16 @@
     border: none;
     border-radius: 50px;
     padding: 25px 22px;
-    margin: 44px auto;
+    margin: 32px auto;
 }
 
 .g p {
-    margin: 40px auto;
+    width: 100%;
+    margin: auto;
     font-size: 44px;
     font-weight: 700;
     color: #141b56;
+    margin-bottom: 31px;
 }
 
 .g-3 p {
@@ -177,7 +182,7 @@
     width: 100%;
 }
 
-.build-stuff > div h3 {
+.build-stuff>div h3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,7 +199,7 @@
     margin: auto;
 }
 
-.build-cont > div {
+.build-cont>div {
     width: 30%;
     background-color: #ffffff;
     margin: 21px auto;
@@ -202,11 +207,11 @@
     border-radius: 10px;
 }
 
-.build-cont > div img {
+.build-cont>div img {
     width: 100%;
 }
 
-.build-cont > div h4 {
+.build-cont>div h4 {
     width: 90%;
     margin: 19px auto;
     font-weight: 700;
@@ -215,7 +220,7 @@
 
 }
 
-.build-cont > div p {
+.build-cont>div p {
     width: 87%;
     margin: 19px auto;
     font-size: 14px;
@@ -224,7 +229,7 @@
     line-height: 21px;
 }
 
-.build-cont > div ul li {
+.build-cont>div ul li {
     width: 80%;
     list-style: inside;
     margin: 19px auto;
@@ -233,11 +238,56 @@
     color: #03051A;
     line-height: 21px;
     list-style: none;
+    position: relative;
 }
 
-.build-cont > div ul {
+.build-cont>div ul {
+
     position: relative;
     width: 80%;
+    border-left: 1px dashed #2FD3C7;
+    margin: 0px auto;
+}
+
+.build-cont>div ul .first {
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+
+.build-cont>div ul .second {
+    position: absolute;
+    top: 83px;
+    left: -10px;
+}
+
+.build-cont>div ul .third {
+    position: absolute;
+    top: 123px;
+    left: -10px;
+}
+
+.build-cont>div ul .fourth {
+    position: absolute;
+    top: 163px;
+    left: -10px;
+}
+
+.build-cont>div ul .fifth {
+    position: absolute;
+    top: 203px;
+    left: -10px;
+}
+
+.build-cont>div ul .sixth {
+    position: absolute;
+    top: 243px;
+    left: -10px;
+}
+
+.build-cont>div ul img {
+    width: 100%;
 }
 
 .what-happened {
@@ -246,7 +296,7 @@
     color: #ffffff;
 }
 
-.what-happened > div h3 {
+.what-happened>div h3 {
     width: 40%;
     font-weight: 700;
     font-size: 44px;
@@ -267,7 +317,7 @@
     margin: auto;
 }
 
-.code > div {
+.code>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -275,17 +325,17 @@
     width: 40%;
 }
 
-.code > div p {
+.code>div p {
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
 }
 
-.code-cont > div {
+.code-cont>div {
     width: 55%;
 }
 
-.learn > div {
+.learn>div {
     width: 45%;
 }
 
@@ -297,7 +347,7 @@
     margin: auto;
 }
 
-.travel-cont > div {
+.travel-cont>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -332,7 +382,7 @@
     margin-top: 35px;
 }
 
-.prize {
+.prize-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -352,7 +402,6 @@
 }
 
 .p-0 {
-    margin-bottom: 29px;
     background-color: #ffffff;
     text-align: center;
     padding: 18px 25px;
@@ -374,7 +423,9 @@
     background: #2FD3C7;
     box-shadow: 0px 8px 16px rgba(200, 196, 196, 0.25);
     border-radius: 10px;
+    margin-top: 30px;
 }
+
 .p-1 p {
     color: #141b56;
 }
@@ -385,9 +436,8 @@
 
 
 .p-2 {
-    margin: 30px 0;
     text-align: center;
-    padding: 18px 25px;
+    padding: 18px 36px;
     background: #141b56;
     box-shadow: 0px 8px 16px rgba(200, 196, 196, 0.25);
     border-radius: 10px;
@@ -404,10 +454,11 @@
 
 .p-3 {
     text-align: center;
-    padding: 18px 25px;
+    padding: 18px 36px;
     background: #ffba40;
     box-shadow: 0px 8px 16px rgba(200, 196, 196, 0.25);
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .p-3 p {
@@ -416,6 +467,12 @@
 
 .p-3 h4 {
     color: #ffffff;
+}
+
+.prize-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .prize-items p {
@@ -498,7 +555,7 @@
     font-weight: 700;
     font-size: 117px;
     line-height: 135px;
-    color: #8491A0;    
+    color: #8491A0;
 }
 
 .number h4 {
@@ -573,7 +630,7 @@
 .duration h2 {
     font-weight: 700;
     font-size: 44px;
-    line-height: 51px;  
+    line-height: 51px;
     color: #141B56;
 }
 
@@ -605,14 +662,14 @@
     padding-bottom: 80px;
 }
 
-.venue-cont > div {
+.venue-cont>div {
     margin: 95px auto;
 }
 
 .venue-cont h2 {
     font-weight: 700;
     font-size: 44px;
-    line-height: 51px;    
+    line-height: 51px;
     color: #141B56;
 }
 
@@ -686,7 +743,7 @@
     align-items: center;
     text-align: center;
     color: #141B56;
-    
+
 }
 
 .proud-cont button {
@@ -718,7 +775,7 @@
     color: #FFFFFF;
 }
 
-.contact > div {
+.contact>div {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -754,15 +811,38 @@
         flex-direction: column;
     }
 
+    .home-container button {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .cont-mid > img {
+        display: none;
+    }
+
     .mid-cont {
         flex-direction: column;
+        width: 100%;
+    }
+
+    .mid-cont img {
+        width: 100%;
+    }
+
+    .mid {
+        width: 90%;
     }
 
     .ton-cont {
         flex-direction: column;
+        width: 100%;
     }
 
     .ton {
+        width: 90%;
+    }
+
+    .ton-1 img  {
         width: 100%;
     }
 
@@ -775,19 +855,27 @@
     }
 
     .g {
-        width: 80%;
+        width: 90%;
+    }
+
+    .build-stuff > div h3 {
+        margin: auto;
+        padding-top: 50px;
     }
 
     .build-cont {
         flex-direction: column;
-    }
-
-    .build-cont > div {
-        width: 80%;
-    }
-
-    .what-happened > div h3 {
         width: 90%;
+    }
+
+    .build-cont>div {
+        width: 100%;
+    }
+
+    .what-happened>div h3 {
+        width: 90%;
+        font-size: 36px;
+        margin: 20px auto;
     }
 
     .code {
@@ -795,17 +883,24 @@
         flex-direction: column;
     }
 
-    .code-cont {    
+    .code h4 {
+        font-size: 20px;
+    }
+
+    .code-cont {
         flex-direction: column;
         text-align: center;
     }
 
-    .code > div {
-        width: 80%;
-
+    .code-cont img {
+        padding: 25px;
     }
 
-    .code-cont > div {
+    .code>div {
+        width: 80%;
+    }
+
+    .code-cont>div {
         width: 100%;
     }
 
@@ -814,7 +909,7 @@
         text-align: center;
     }
 
-    .learn > div {
+    .learn>div {
         width: 100%;
     }
 
@@ -823,7 +918,7 @@
         width: 100%;
     }
 
-    .travel-cont > div {
+    .travel-cont>div {
         width: 80%;
         text-align: center;
     }
@@ -831,6 +926,10 @@
     .travel {
         flex-direction: column;
         padding-top: 20px;
+    }
+
+    .travel img {
+        padding: 30px;
     }
 
     .travel div {
@@ -852,18 +951,30 @@
 
     .reward h3 {
         text-align: center;
+        margin: auto;
     }
 
-    .prize {
+    .prize-item {
         flex-direction: column;
     }
 
+    .prize-items {
+        flex-direction: column;
+        padding-top: 30px;
+
+    }
+
     .process nav {
-        width: 60%;
+        width: 80%;
+    }
+
+    .process nav h3 {
+        line-height: normal;
     }
 
     .application-cont {
         flex-direction: column;
+
     }
 
     .application {
@@ -878,6 +989,7 @@
     .number {
         width: 100%;
         text-align: center;
+        margin-top: 36px;
     }
 
     .number h4 {
@@ -891,6 +1003,7 @@
     .words {
         width: 100;
         text-align: center;
+        margin-top: 36px;
     }
 
     .words p {
@@ -899,22 +1012,41 @@
 
     .img-cont {
         flex-direction: column;
+        width: 90%;
+    }
+
+    .duration button {
+        margin: 20px auto;
     }
 
     .duration {
         text-align: center;
+        width: 100%;
+        margin: 20px auto;
     }
 
     .venue-cont {
         flex-direction: column;
+        padding: 0;
+        width: 80%;
     }
 
     .venue-cont p {
         width: 100%;
+        font-size: 18px;
     }
 
-    .venue-cont > div {
+    .venue-cont>div {
         text-align: center;
+        margin: auto;
+    }
+
+    .venue-cont button {
+        margin: 20px auto;
+    }
+
+    .venue-cont img {
+        display: none;
     }
 
     .amazing {
@@ -925,11 +1057,7 @@
         width: 100%;
     }
 
-    .mid {
-        width: 100%;
-    }
-
-    .reward-cont > img {
+    .reward-cont>img {
         display: none;
     }
 
@@ -937,4 +1065,19 @@
         width: 90%;
         font-size: 23px;
     }
+
+    .g-3 p {
+        width: 100%;
+    }
+
+    .contact > div {
+        width: 20%;
+        margin: auto;
+    }
+
+
+
+
+
+
 }
